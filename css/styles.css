@@ -137,10 +137,6 @@ tr:hover {
 
 .profile__portrait {
   float: left;
-}
-
-.profile__portrait {
-  float: left;
   width: 250px;
   margin-right: 40px;
   border-radius: 50%;
@@ -225,11 +221,11 @@ header .logo img {
   grid-gap: 20px;
   grid-auto-flow: row;
   padding: 40px;
+
 }
 
 .grid__item {
   background-color: var(--dustylilac);
-  padding: 10px;
   width: auto;
 }
 
@@ -273,7 +269,7 @@ width: 50%;
   }
   50% {
     fill: var(--brightpurple);
-  }
+}
   100% {
     fill: var(--brightturquoise);
   }
